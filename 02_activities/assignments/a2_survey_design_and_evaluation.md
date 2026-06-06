@@ -40,29 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
-```
+The purpose of this survey is to understand why entry- and lower-level employees are leaving the company at high rates. The survey will assess employee satisfaction, workload, compensation, career development, management support, workplace culture, and reasons employees may consider leaving.```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current entry- and lower-level employees at the company
+Sampling frame: The company’s HR employee database, including current employees in entry- and lower-level roles
+Sampling units: Individual employees
+Sampling strategy: I would use stratified random sampling by department to ensure employees from all departments are represented. Within each department, I would randomly sample entry- and lower-level employees. I would also make the survey anonymous to reduce response bias and encourage honest feedback
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
+1. Overall, how satisfied are you with your current role? (Very Satisfied, Satisfied, Neutral, Dissatisfied, Very Dissatisfied)
+2. How manageable is your current workload? (Very Manageable, Somewhat Manageable, Neutral, Somewhat Unmanageable, Very Unmanageable)
+3. Do you feel fairly compensated for your work? (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)
+4. Do you feel supported by your direct manager? (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)
+5. Do you feel there are clear opportunities for promotion or career growth at this company? (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)
+6. How often do you feel stressed or burned out because of work? (Always, Often, Sometimes, Rarely, Never)
+7. How likely are you to look for another job in the next 6 months? (Very Likely, Likely, Neutral, Unlikely, Very Unlikely)
+8. What is the main reason you would consider leaving this company? (Pay/benefits, Workload/burnout, Lack of growth opportunities, Workplace culture, Other [fill in blank])
+9. What change would most improve your job satisfaction? (Higher Pay, Better Benefits, More Manageable Workload, More Career Development Opportunities, Better Management/Support, Other [fill in blank])
 10. write your question here... (optional)
 ```
 
@@ -71,7 +73,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Cross-sectional probability sample survey design
+2. Sample size: Target 20,000; completed ~16,000
+3. Target population: Persons aged 15 years and older living in the 10 Canadian provinces and residing in private households (excludes Territories and those living full time in institutions)
+4. Sampling frame: Integrated telephone landline numbers, cell numbers, census, and StatsCan dwelling/address frame 
+5. Survey mode(s): mixed-mode approach: Electronic questionnaire (online) + Computer-assisted telephone interviewing (CATI) 
+6. Timeline: Reference period was prior 12 months, data was collected between September and December 2018. Initial results were published June 2020. 
+7. Response rate: ~43%
+8. Weights: 1. Design weights reflecting selection probabilities, 2. Adjustments for non-response, 3. Calibration to known population totals. Bootstrap weights were also created for proper variance estimation and confidence interval calculation.
+9. Data processing: Automated edit checks during collection, consistency verification after collection, coding of open-ended responses, creation of derived variables
+10. Cleaning, imputation, etc: Imputation was performed for selected missing items where appropriate. Derived variables were created from multiple questionnaire responses.
+11. Sources of error: 1. Sampling Error (only a sample of Canadians was surveyed, estimates are subject to random sampling variation), 2. Non-response Error (not all selected individuals participated), 3. Measurement Error (respondents may misremember activities such as volunteering, donations, or participation over the previous 12 months)
+12. Limitations, known biases, etc: 1. Non-response Bias (individuals who decline participation may differ systematically from respondents), 2. Recall Bias (respondents were asked to remember activities over the previous year, which may lead to inaccurate reporting), 3. Social Desirability Bias (people may over-report socially valued behaviours such as volunteering or charitable giving), 4. Comparability Issues (StatsCan specifically states that 2018 estimates are not directly comparable with previous cycles because it wa the first time online collection was used, several questions were revised, and definitions of volunteering were changed)
+13. Link to documentation and any additional sources used: https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm 
 ```
 
 ## Rubric
